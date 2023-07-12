@@ -27,6 +27,7 @@ test('assignment', async ({ page }) => {
     await page.locator('id=notRevertable').dragTo(page.locator("//div[@id='revertableDropContainer']//div[@id='droppable']"));
     //await page.getByText('Draggable').click();
     await page.getByRole('listitem').filter({ hasText: 'Dragabble' }).click();
+    console.log("B");
 
     await page.locator('[id=dragBox]').hover();
     await page.mouse.down();

@@ -48,7 +48,7 @@ test('assignment', async ({ page }) => {
     // await page.getByText('Haryana').click();
 
 
-    await page.waitForTimeout(2000);
+
     
 
     // await page.waitForTimeout(2000);

@@ -55,7 +55,7 @@ test('assignment', async ({ page }) => {
     
     await page.locator('[id="cursorBottom"]').hover();
     await page.mouse.down();
-    await page.mouse.move(500,1500);
+    await page.mouse.move(50,50);
    
     await page.mouse.up();
 
